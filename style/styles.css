@@ -8,7 +8,8 @@
 
 body {
     min-height: 100vh;
-    background-image: url('/asset/img/BG.jpg');
+    background-color: #FB9AD1;
+    /* background-image: url('/asset/img/BG.jpg'); */
     display: flex;
     justify-content: center;
     align-items: center;
