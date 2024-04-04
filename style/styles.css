@@ -8,7 +8,7 @@
 
 body {
     min-height: 100vh;
-    background: url(/asset/img/BG.webp) center / cover;
+    background: url(/asset/img/BG.jpg) center / cover;
     display: flex;
     justify-content: center;
     align-items: center;
