@@ -8,7 +8,7 @@
 
 body {
     min-height: 100vh;
-    background-color: #FB9AD1;
+    background-image: url('/asset/img/BG.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,8 +24,10 @@ main.table {
     box-shadow: 0 .4rem .8rem #0005;
     border-radius: .8rem;
 
-    overflow-y: auto; /* Tambahkan ini untuk mengatur scroll saat konten melebihi tinggi tabel */
-    overflow-x: hidden; /* Tambahkan ini untuk menghilangkan scroll horizontal */
+    overflow-y: auto;
+    /* Tambahkan ini untuk mengatur scroll saat konten melebihi tinggi tabel */
+    overflow-x: hidden;
+    /* Tambahkan ini untuk menghilangkan scroll horizontal */
 
 }
 
@@ -38,8 +40,10 @@ main.table2 {
     box-shadow: 0 .4rem .8rem #0005;
     border-radius: .8rem;
 
-    overflow-y: auto; /* Tambahkan ini untuk mengatur scroll saat konten melebihi tinggi tabel */
-    overflow-x: hidden; /* Tambahkan ini untuk menghilangkan scroll horizontal */
+    overflow-y: auto;
+    /* Tambahkan ini untuk mengatur scroll saat konten melebihi tinggi tabel */
+    overflow-x: hidden;
+    /* Tambahkan ini untuk menghilangkan scroll horizontal */
 
     margin-left: 12px;
 
@@ -143,7 +147,7 @@ main.table2 {
 
     overflow: auto;
     overflow: overlay;
-    
+
 }
 
 .table2__body {
@@ -156,42 +160,42 @@ main.table2 {
 
     overflow: auto;
     overflow: overlay;
-    
+
 }
 
-.table__body::-webkit-scrollbar{
+.table__body::-webkit-scrollbar {
     width: 0.5rem;
     height: 0.5rem;
 }
 
-.table2__body::-webkit-scrollbar{
+.table2__body::-webkit-scrollbar {
     width: 0.5rem;
     height: 0.5rem;
 }
 
-.table__body::-webkit-scrollbar-thumb{
+.table__body::-webkit-scrollbar-thumb {
     border-radius: .5rem;
     background-color: #0004;
     visibility: hidden;
 }
 
-.table2__body::-webkit-scrollbar-thumb{
+.table2__body::-webkit-scrollbar-thumb {
     border-radius: .5rem;
     background-color: #0004;
     visibility: hidden;
 }
 
-.table__body:hover::-webkit-scrollbar-thumb{ 
+.table__body:hover::-webkit-scrollbar-thumb {
     visibility: visible;
 }
 
-.table2__body:hover::-webkit-scrollbar-thumb{ 
+.table2__body:hover::-webkit-scrollbar-thumb {
     visibility: visible;
 }
 
 table {
     width: 100%;
-    
+
 }
 
 .table__body img {
@@ -203,7 +207,7 @@ table {
     vertical-align: middle;
 }
 
-.table2__body img{
+.table2__body img {
     width: 56px;
     height: auto;
     margin-right: .5rem;
@@ -211,7 +215,9 @@ table {
     vertical-align: middle;
 }
 
-table, th, td {
+table,
+th,
+td {
     border-collapse: collapse;
     padding: 1rem;
     text-align: left;
@@ -276,15 +282,15 @@ thead th span.icon-arrow {
     height: 1.3rem;
     border-radius: 50%;
     border: 1.4px solid transparent;
-    
+
     text-align: center;
     font-size: 1rem;
-    
+
     margin-left: .5rem;
     transition: .2s ease-in-out;
 }
 
-thead th:hover span.icon-arrow{
+thead th:hover span.icon-arrow {
     border: 1.4px solid #6c00bd;
 }
 
@@ -292,15 +298,16 @@ thead th:hover {
     color: #6c00bd;
 }
 
-thead th.active span.icon-arrow{
+thead th.active span.icon-arrow {
     background-color: #6c00bd;
     color: #fff;
 }
 
-thead th.asc span.icon-arrow{
+thead th.asc span.icon-arrow {
     transform: rotate(180deg);
 }
 
-thead th.active,tbody td.active {
+thead th.active,
+tbody td.active {
     color: #6c00bd;
 }
